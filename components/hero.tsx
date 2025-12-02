@@ -22,12 +22,6 @@ export function Hero() {
             cybersécurité. Passionné par les technologies de pointe et les systèmes d&apos;information.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-            <button className="inline-flex h-12 items-center justify-center rounded-lg bg-accent px-8 text-base font-medium text-accent-foreground hover:opacity-90 transition-opacity border border-accent/50 shadow-lg shadow-accent/20">
-              Voir mes projets
-            </button>
-            <button className="inline-flex h-12 items-center justify-center rounded-lg border-2 border-accent px-8 text-base font-medium text-accent hover:bg-accent/10 transition-colors">
-              Me contacter
-            </button>
           </div>
         </div>
       </div>
