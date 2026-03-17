@@ -37,12 +37,12 @@ export function About() {
                 <p className="text-sm text-foreground/60">SIO SISR</p>
               </div>
               <div className="bg-card border border-border/50 p-4 rounded-lg hover:border-accent/50 transition-colors">
-                <p className="text-3xl font-bold text-accent">2</p>
+                <p className="text-3xl font-bold text-accent">3</p>
                 <p className="text-sm text-foreground/60">Projets majeurs</p>
               </div>
               <div className="bg-card border border-border/50 p-4 rounded-lg hover:border-accent/50 transition-colors">
                 <p className="text-3xl font-bold text-primary">1</p>
-                <p className="text-sm text-foreground/60">Stage réalisé</p>
+                <p className="text-sm text-foreground/60">Alternance réalisée</p>
               </div>
             </div>
           </div>
