@@ -37,6 +37,14 @@ const PROJECTS = [
     category: "Stage Professionnel",
     tags: ["Intégration API", "CRM", "Automatisation", "N8N"],
   },
+  {
+    id: 5,
+    title: "Alternance - Déploiement Téléphonie IP",
+    description:
+      "Participation au déploiement d'un système de communication unifiée sur réseau IP chez un client. Installation et configuration d'une solution de téléphonie utilisant le protocole VoIP, permettant une communication efficace et moderne au sein de l'entreprise.",
+    category: "Alternance",
+    tags: ["VoIP", "Téléphonie IP", "Réseaux", "Communication Unifiée"],
+  },
 ]
 
 export function Projects() {
@@ -108,6 +116,36 @@ export function Projects() {
                         <span
                           key={tag}
                           className="text-xs font-medium px-3 py-1 rounded-full bg-primary/20 text-primary border border-primary/30"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Alternance */}
+          <div>
+            <h3 className="text-2xl font-bold text-emerald-500 mb-6">Alternance</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              {PROJECTS.filter((p) => p.category === "Alternance").map((project) => (
+                <div
+                  key={project.id}
+                  className="rounded-lg border border-border hover:border-emerald-500/50 transition-all overflow-hidden group bg-card hover:bg-card/80 hover:shadow-lg hover:shadow-emerald-500/10"
+                >
+                  <div className="p-6">
+                    <h4 className="text-lg font-bold text-foreground mb-2 group-hover:text-emerald-500 transition-colors">
+                      {project.title}
+                    </h4>
+                    <p className="text-foreground/70 text-sm mb-4">{project.description}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="text-xs font-medium px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-500 border border-emerald-500/30"
                         >
                           {tag}
                         </span>
