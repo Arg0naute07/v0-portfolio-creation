@@ -116,7 +116,7 @@ export function Skills() {
         <div className="mt-16 text-center">
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Ces compétences techniques ont été acquises lors de ma formation en BTS SIO et développées pendant mes
-            expériences de projets scolaires et mon stage professionnel chez Angel App.
+            expériences de projets scolaires, mon stage professionnel chez Angel App et mon alternance.
           </p>
         </div>
       </div>

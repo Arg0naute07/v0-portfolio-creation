@@ -14,8 +14,8 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
           <div className="space-y-6 text-foreground/80">
             <p className="text-lg leading-relaxed">
-              Je m&apos;appelle <strong className="text-accent">Cristiano</strong>, j&apos;ai 19 ans et je suis
-              actuellement en première année de BTS SIO, option SISR, à l&apos;école d&apos;informatique{" "}
+              Je m&apos;appelle <strong className="text-accent">Cristiano</strong>, j&apos;ai 20 ans et je suis
+              actuellement en deuxième année de BTS SIO, option SISR, à l&apos;école d&apos;informatique{" "}
               <strong className="text-primary">IPSSIL</strong>.
             </p>
             <p className="text-lg leading-relaxed">
@@ -29,7 +29,7 @@ export function About() {
 
             <div className="grid grid-cols-2 gap-4 pt-6">
               <div className="bg-card border border-border/50 p-4 rounded-lg hover:border-accent/50 transition-colors">
-                <p className="text-3xl font-bold text-accent">19</p>
+                <p className="text-3xl font-bold text-accent">20</p>
                 <p className="text-sm text-foreground/60">Ans</p>
               </div>
               <div className="bg-card border border-border/50 p-4 rounded-lg hover:border-accent/50 transition-colors">
@@ -37,12 +37,12 @@ export function About() {
                 <p className="text-sm text-foreground/60">SIO SISR</p>
               </div>
               <div className="bg-card border border-border/50 p-4 rounded-lg hover:border-accent/50 transition-colors">
-                <p className="text-3xl font-bold text-accent">2</p>
+                <p className="text-3xl font-bold text-accent">3</p>
                 <p className="text-sm text-foreground/60">Projets majeurs</p>
               </div>
               <div className="bg-card border border-border/50 p-4 rounded-lg hover:border-accent/50 transition-colors">
                 <p className="text-3xl font-bold text-primary">1</p>
-                <p className="text-sm text-foreground/60">Stage réalisé</p>
+                <p className="text-sm text-foreground/60">Alternance réalisée</p>
               </div>
             </div>
           </div>
