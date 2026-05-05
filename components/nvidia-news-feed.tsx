@@ -1,8 +1,7 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { ExternalLink, RefreshCw, Newspaper, Clock, AlertCircle } from "lucide-react"
 import useSWR from "swr"
 
@@ -65,16 +64,14 @@ export function NvidiaNewsFeed() {
             </p>
           </div>
         </div>
-        <Button
-          variant="outline"
-          size="sm"
+        <button
           onClick={handleRefresh}
           disabled={isRefreshing || isLoading}
-          className="border-accent/30 hover:border-accent hover:bg-accent/10"
+          className="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md border border-accent/30 hover:border-accent hover:bg-accent/10 text-foreground disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
           <RefreshCw className={`w-4 h-4 mr-2 ${isRefreshing ? "animate-spin" : ""}`} />
           Actualiser
-        </Button>
+        </button>
       </div>
 
       {isLoading && (
