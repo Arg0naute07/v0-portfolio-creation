@@ -46,19 +46,19 @@ export function SynthesisTable() {
                 <ul className="space-y-3 text-sm text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 font-bold mt-0.5">•</span>
-                    <span>Compétences SISR (Infrastructure, Maintenance, Sécurité)</span>
+                    <span>AP1 - Proposition hardware/software pour visiteurs médicaux</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 font-bold mt-0.5">•</span>
-                    <span>Réalisations académiques et professionnelles</span>
+                    <span>AP2 - Préconisation technique infrastructure réseaux</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 font-bold mt-0.5">•</span>
-                    <span>Technologies maîtrisées (Windows Server, VMware, Cisco, N8N)</span>
+                    <span>Stages: Supervision serveurs, API, automatisation (N8N)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 font-bold mt-0.5">•</span>
-                    <span>Détails complets de mes projets et missions</span>
+                    <span>Alternance: Config routeurs, FTTH/FTTO, intégration réseaux</span>
                   </li>
                 </ul>
               </div>
