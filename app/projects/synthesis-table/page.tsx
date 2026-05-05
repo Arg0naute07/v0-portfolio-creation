@@ -7,7 +7,7 @@ import { ExternalLink, ArrowLeft } from "lucide-react"
 
 export default function SynthesisTablePage() {
   const pdfUrl =
-    "https://blobs.vusercontent.net/blob/8-1%20-%20BTS%20SIO%20-%202025%20-%20Tableau%20de%20synthese%20%281%29-GZqplCfuPJOEkp4fVyh5E9pSYTTtbl.pdf"
+    "https://blobs.vusercontent.net/blob/Tableau%20de%20Synth%C3%A8se%20-%20E5%20-%20Cristiano%20DA%20CONCEICAO%20ALVES-GKN8Rcnw99HJEWZUkvkQwj4gzoEu0r.pdf"
 
   return (
     <main className="min-h-screen bg-background">
