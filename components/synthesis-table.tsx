@@ -20,7 +20,7 @@ export function SynthesisTable() {
             className="flex-1 block group relative overflow-hidden rounded-lg border-2 border-cyan-500/40 hover:border-cyan-400 transition-all duration-300 shadow-lg hover:shadow-cyan-500/30"
           >
             <Image
-              src="/images/image.png"
+              src="/images/tableau-synthese.png"
               alt="Tableau de Synthèse BTS SIO - Cristiano Da Conceicao"
               width={500}
               height={700}
