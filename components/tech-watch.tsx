@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import { Card } from "@/components/ui/card"
+import { NvidiaNewsFeed } from "@/components/nvidia-news-feed"
 
 export function TechWatch() {
   return (
@@ -12,6 +13,9 @@ export function TechWatch() {
           <div className="h-1 w-32 bg-gradient-to-r from-accent via-primary to-accent rounded-full"></div>
           <p className="text-muted-foreground mt-4">Derniere mise a jour : Mars 2026</p>
         </div>
+
+        {/* Actualites NVIDIA en direct */}
+        <NvidiaNewsFeed />
 
         {/* Intro - La nouvelle gamme RTX 5000 */}
         <div className="mb-16">
